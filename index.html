@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>呈尚策划项目展示</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .project-card {
+            transition: all 0.3s ease;
+            transform-style: preserve-3d;
+            perspective: 1000px;
+        }
+        .project-card:hover {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .card-inner {
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+        .project-card:hover .card-inner {
+            transform: rotateY(10deg);
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .floating {
+            animation: float 6s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <div class="container mx-auto px-4 py-12">
+        <!-- 标题部分 -->
+        <div class="text-center mb-16">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4 gradient-text">呈尚策划项目集</h1>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">专注于美团外卖和闪购运营的各类工具、系统及知识库</p>
+            <div class="mt-6">
+                <div class="inline-block bg-gradient-to-r from-blue-500 to-purple-500 p-1 rounded-full floating">
+                    <div class="bg-white px-4 py-2 rounded-full text-sm font-medium">✨ 点击卡片查看详情</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 项目卡片网格 -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- 项目卡片1：商家回复解答手册 -->
+            <a href="https://xuxikai886.github.io/shangjiahuizong/" target="_blank" class="project-card group">
+                <div class="card-inner h-full bg-white rounded-xl shadow-md overflow-hidden border border-gray-100">
+                    <div class="h-48 bg-gradient-to-br from-blue-100 to-purple-100 flex items-center justify-center">
+                        <i class="fas fa-comments text-6xl text-blue-500 opacity-80 group-hover:opacity-100 transition-opacity"></i>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center mb-3">
+                            <h3 class="text-xl font-bold text-gray-800 group-hover:text-blue-600 transition-colors">商家回复解答手册</h3>
+                            <span class="ml-auto bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">知识库</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">呈尚策划打造的商家回复解答手册，帮助商家高效处理客户反馈</p>
+                        <div class="flex space-x-2">
+                            <span class="text-xs bg-gray-100 px-2 py-1 rounded text-gray-600">客户反馈</span>
+                            <span class="text-xs bg-gray-100 px-2 py-1 rounded text-gray-600">回复模板</span>
+                            <span class="text-xs bg-gray-100 px-2 py-1 rounded text-gray-600">沟通技巧</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <!-- 项目卡片2：美团运营知识学习系统 -->
+            <a href="https://xuxikai886.github.io/kaoshixitong/index.html" target="_blank" class="project-card group">
+                <div class="card-inner h-full bg-white rounded-xl shadow-md overflow-hidden border border-gray-100">
+                    <div class="h-48 bg-gradient-to-br from-green-100 to-teal-100 flex items-center justify-center">
+                        <i class="fas fa-graduation-cap text-6xl text-green-500 opacity-80 group-hover:opacity-100 transition-opacity"></i>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center mb-3">
+                            <h3 class="text-xl font-bold text-gray-800 group-hover:text-green-600 transition-colors">美团运营知识学习系统</h3>
+                            <span class="ml-auto bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full">学习系统</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">专为美团运营人员打造的知识学习系统，提供系统化的运营知识</p>
+                        <div class="flex space-x-2">
+                            <span class="text-xs bg-gray-100 px-2 py-1 rounded text-gray-600">运营知识</span>
+                            <span class="text-xs bg-gray-100 px-2 py-1 rounded text-gray-600">考试系统</span>
+                            <span class="text-xs bg-gray-100 px-2 py-1 rounded text-gray-600">学习资料</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <!-- 项目卡片3：外卖店铺完整运营流程 -->
+            <a href="https://xuxikai886.github.io/meituanyunyingliucheng/" target="_blank" class="project-card group">
+                <div class="card-inner h-full bg-white rounded-xl shadow-md overflow-hidden border border-gray-100">
+                    <div class="h-48 bg-gradient-to-br from-yellow-100 to-orange-100 flex items-center justify-center">
+                        <i class="fas fa-sitemap text-6xl text-yellow-500 opacity-80 group-hover:opacity-100 transition-opacity"></i>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center mb-3">
+                            <h3 class="text-xl font-bold text-gray-800 group-hover:text-yellow-600 transition-colors">外卖店铺完整运营流程</h3>
+                            <span class="ml-auto bg-yellow-100 text-yellow-800 text-xs px-2 py-1 rounded-full">运营流程</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">详细展示美团外卖店铺从开店到运营的完整流程和操作指南</p>
+                        <div class="flex space-x-2">
+                            <span class="text-xs bg-gray-100 px-2 py-1 rounded text-gray-600">店铺运营</span>
+                            <span class="text-xs bg-gray-100 px-2 py-1 rounded text-gray-600">流程指南</span>
+                            <span class="text-xs bg-gray-100 px-2 py-1 rounded text-gray-600">开店攻略</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <!-- 项目卡片4：美团外卖运营知识SVG图表集合 -->
+            <a href="https://xuxikai886.github.io/meituan-svg-guide-new/" target="_blank" class="project-card group">
+                <div class="card-inner h-full bg-white rounded-xl shadow-md overflow-hidden border border-gray-100">
+                    <div class="h-48 bg-gradient-to-br from-red-100 to-pink-100 flex items-center justify-center">
+                        <i class="fas fa-chart-pie text-6xl text-red-500 opacity-80 group-hover:opacity-100 transition-opacity"></i>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center mb-3">
+                            <h3 class="text-xl font-bold text-gray-800 group-hover:text-red-600 transition-colors">外卖运营知识SVG图表集</h3>
+                            <span class="ml-auto bg-red-100 text-red-800 text-xs px-2 py-1 rounded-full">图表集</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">美团外卖运营相关知识的SVG图表集合，直观展示运营要点</p>
+                        <div class="flex space-x-2">
+                            <span class="text-xs bg-gray-100 px-2 py-1 rounded text-gray-600">可视化图表</span>
+                            <span class="text-xs bg-gray-100 px-2 py-1 rounded text-gray-600">运营指标</span>
+                            <span class="text-xs bg-gray-100 px-2 py-1 rounded text-gray-600">数据分析</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <!-- 项目卡片5：美团闪购产品信息图片采集软件 -->
+            <a href="https://xuxikai886.github.io/shangou-caiji/" target="_blank" class="project-card group">
+                <div class="card-inner h-full bg-white rounded-xl shadow-md overflow-hidden border border-gray-100">
+                    <div class="h-48 bg-gradient-to-br from-purple-100 to-indigo-100 flex items-center justify-center">
+                        <i class="fas fa-camera text-6xl text-purple-500 opacity-80 group-hover:opacity-100 transition-opacity"></i>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center mb-3">
+                            <h3 class="text-xl font-bold text-gray-800 group-hover:text-purple-600 transition-colors">闪购产品信息图片采集软件</h3>
+                            <span class="ml-auto bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">采集工具</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">专为美团闪购商家开发的产品信息与图片自动采集工具</p>
+                        <div class="flex space-x-2">
+                            <span class="text-xs bg-gray-100 px-2 py-1 rounded text-gray-600">图片采集</span>
+                            <span class="text-xs bg-gray-100 px-2 py-1 rounded text-gray-600">产品信息</span>
+                            <span class="text-xs bg-gray-100 px-2 py-1 rounded text-gray-600">自动抓取</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <!-- 项目卡片6：美团店铺运营数据可视化动画演示系统 -->
+            <a href="https://xuxikai886.github.io/meituanshujuyanshi/" target="_blank" class="project-card group">
+                <div class="card-inner h-full bg-white rounded-xl shadow-md overflow-hidden border border-gray-100">
+                    <div class="h-48 bg-gradient-to-br from-teal-100 to-cyan-100 flex items-center justify-center">
+                        <i class="fas fa-chart-line text-6xl text-teal-500 opacity-80 group-hover:opacity-100 transition-opacity"></i>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center mb-3">
+                            <h3 class="text-xl font-bold text-gray-800 group-hover:text-teal-600 transition-colors">店铺运营数据可视化系统</h3>
+                            <span class="ml-auto bg-teal-100 text-teal-800 text-xs px-2 py-1 rounded-full">数据可视化</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">通过动态图表和动画直观展示美团店铺运营数据和趋势分析</p>
+                        <div class="flex space-x-2">
+                            <span class="text-xs bg-gray-100 px-2 py-1 rounded text-gray-600">数据展示</span>
+                            <span class="text-xs bg-gray-100 px-2 py-1 rounded text-gray-600">趋势分析</span>
+                            <span class="text-xs bg-gray-100 px-2 py-1 rounded text-gray-600">实时监控</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <!-- 新增项目卡片7：域锦科技AI系统 -->
+            <a href="https://www.yujinkeji.net/" target="_blank" class="project-card group">
+                <div class="card-inner h-full bg-white rounded-xl shadow-md overflow-hidden border border-gray-100">
+                    <div class="h-48 bg-gradient-to-br from-blue-100 to-cyan-100 flex items-center justify-center">
+                        <i class="fas fa-brain text-6xl text-blue-500 opacity-80 group-hover:opacity-100 transition-opacity"></i>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center mb-3">
+                            <h3 class="text-xl font-bold text-gray-800 group-hover:text-blue-600 transition-colors">域锦科技AI系统</h3>
+                            <span class="ml-auto bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">AI平台</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">基于AI技术的智能助手平台，专注于提升外卖运营效率和数据分析能力</p>
+                        <div class="flex space-x-2">
+                            <span class="text-xs bg-gray-100 px-2 py-1 rounded text-gray-600">智能助手</span>
+                            <span class="text-xs bg-gray-100 px-2 py-1 rounded text-gray-600">数据可视化</span>
+                            <span class="text-xs bg-gray-100 px-2 py-1 rounded text-gray-600">思维导图</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <!-- 新增项目卡片8：呈尚策划财务记账系统 -->
+            <a href="https://bopxizbqawxb.sealosbja.site/" target="_blank" class="project-card group">
+                <div class="card-inner h-full bg-white rounded-xl shadow-md overflow-hidden border border-gray-100">
+                    <div class="h-48 bg-gradient-to-br from-green-100 to-emerald-100 flex items-center justify-center">
+                        <i class="fas fa-calculator text-6xl text-green-500 opacity-80 group-hover:opacity-100 transition-opacity"></i>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center mb-3">
+                            <h3 class="text-xl font-bold text-gray-800 group-hover:text-green-600 transition-colors">呈尚策划财务记账系统</h3>
+                            <span class="ml-auto bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full">财务工具</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">简洁高效的财务记账系统，支持收支记录、凭证上传和财务统计等功能</p>
+                        <div class="flex space-x-2">
+                            <span class="text-xs bg-gray-100 px-2 py-1 rounded text-gray-600">收支记录</span>
+                            <span class="text-xs bg-gray-100 px-2 py-1 rounded text-gray-600">凭证管理</span>
+                            <span class="text-xs bg-gray-100 px-2 py-1 rounded text-gray-600">财务统计</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <!-- 新增项目卡片9：微信群发助手 -->
+            <a href="https://xuxikai886.github.io/weixin/" target="_blank" class="project-card group">
+                <div class="card-inner h-full bg-white rounded-xl shadow-md overflow-hidden border border-gray-100">
+                    <div class="h-48 bg-gradient-to-br from-lime-100 to-yellow-100 flex items-center justify-center">
+                        <i class="fab fa-weixin text-6xl text-lime-500 opacity-80 group-hover:opacity-100 transition-opacity"></i>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center mb-3">
+                            <h3 class="text-xl font-bold text-gray-800 group-hover:text-lime-600 transition-colors">微信群发助手</h3>
+                            <span class="ml-auto bg-lime-100 text-lime-800 text-xs px-2 py-1 rounded-full">消息工具</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">基于Python开发的桌面应用，帮助用户安全批量发送消息给微信好友或群聊</p>
+                        <div class="flex space-x-2">
+                            <span class="text-xs bg-gray-100 px-2 py-1 rounded text-gray-600">批量发送</span>
+                            <span class="text-xs bg-gray-100 px-2 py-1 rounded text-gray-600">安全可靠</span>
+                            <span class="text-xs bg-gray-100 px-2 py-1 rounded text-gray-600">模拟操作</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- 页脚 -->
+        <div class="mt-16 text-center text-gray-500">
+            <p>© 2025 呈尚策划. 保留所有权利.</p>
+            <div class="mt-4 flex justify-center space-x-4">
+                <a href="#" class="text-gray-400 hover:text-gray-600"><i class="fas fa-envelope text-xl"></i></a>
+                <a href="#" class="text-gray-400 hover:text-gray-600"><i class="fas fa-phone text-xl"></i></a>
+                <a href="#" class="text-gray-400 hover:text-gray-600"><i class="fas fa-map-marker-alt text-xl"></i></a>
+                <a href="#" class="text-gray-400 hover:text-gray-600"><i class="fas fa-globe text-xl"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 添加卡片点击效果
+        document.querySelectorAll('.project-card').forEach(card => {
+            card.addEventListener('click', function() {
+                // 添加点击动画
+                this.style.transform = 'scale(0.95)';
+                setTimeout(() => {
+                    this.style.transform = '';
+                }, 200);
+            });
+        });
+    </script>
+</body>
+</html>
