@@ -21,7 +21,7 @@
 
 ## 展示项目
 
-网站展示了以下九个与美团外卖和闪购运营相关的项目：
+网站展示了以下十个与美团外卖和闪购运营相关的项目：
 
 1. **商家回复解答手册**
    - 链接：[https://xuxikai886.github.io/shangjiahuizong/](https://xuxikai886.github.io/shangjiahuizong/)
@@ -67,6 +67,11 @@
    - 链接：[https://xuxikai886.github.io/weixin/](https://xuxikai886.github.io/weixin/)
    - 描述：基于Python和PySide6开发的桌面应用程序，帮助用户批量发送消息给微信好友或群聊
    - 特点：批量发送、安全可靠、模拟操作
+
+10. **运营人员每日抽点店铺数统计分析**
+    - 链接：[https://xuxikai886.github.io/yunyingshujutongji/](https://xuxikai886.github.io/yunyingshujutongji/)
+    - 描述：三位运营人员（张玉莲、杨有淇、王郡江）工作量变化趋势与数据对比分析
+    - 特点：工作量分析、趋势对比、绩效评估
 
 ## 使用说明
 
