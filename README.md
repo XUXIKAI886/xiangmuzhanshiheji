@@ -21,7 +21,7 @@
 
 ## 展示项目
 
-网站展示了以下十个与美团外卖和闪购运营相关的项目：
+网站展示了以下十一个与美团外卖和闪购运营相关的项目：
 
 1. **商家回复解答手册**
    - 链接：[https://xuxikai886.github.io/shangjiahuizong/](https://xuxikai886.github.io/shangjiahuizong/)
@@ -72,6 +72,11 @@
     - 链接：[https://xuxikai886.github.io/yunyingshujutongji/](https://xuxikai886.github.io/yunyingshujutongji/)
     - 描述：三位运营人员（张玉莲、杨有淇、王郡江）工作量变化趋势与数据对比分析
     - 特点：工作量分析、趋势对比、绩效评估
+
+11. **销售部数据统计系统**
+    - 链接：[https://aituyftbugof.sealosbja.site/](https://aituyftbugof.sealosbja.site/)
+    - 描述：呈尚策划销售部每日数据汇总分析系统，实时追踪销售目标完成情况
+    - 特点：销售数据、目标追踪、绩效分析
 
 ## 使用说明
 
