@@ -22,7 +22,7 @@
 
 ## 展示项目
 
-网站展示了以下十二个与美团外卖和闪购运营相关的项目：
+网站展示了以下十四个与美团外卖和闪购运营相关的项目：
 
 1. **商家回复解答手册**
    - 链接：[https://xuxikai886.github.io/shangjiahuizong/](https://xuxikai886.github.io/shangjiahuizong/)
@@ -84,7 +84,23 @@
     - 描述：运营部+销售部智能排班与大扫除安排表系统，一键生成随机排班，公平公正公开
     - 特点：智能排班、随机生成、公平公正
 
+13. **美团店铺数据处理工具**
+    - 链接：[https://xuxikai886.github.io/meituanshangpingtupianxiazai/](https://xuxikai886.github.io/meituanshangpingtupianxiazai/)
+    - 描述：呈尚策划运营部美工专用工具，高效便捷下载任何店铺的图片和产品数据
+    - 特点：数据提取、图片处理、Fluent设计
+
+14. **呈尚策划运营数据系统**
+    - 链接：[https://xuxikai886.github.io/feishudianputongji/](https://xuxikai886.github.io/feishudianputongji/)
+    - 描述：集成飞书运营数据统计和店铺解约查询功能的综合运营管理系统
+    - 特点：数据统计、解约查询、运营分析
+
 ## 最近更新
+
+### v2.2.0 (2025-01-05)
+- ✨ **新增项目**：添加了第13和第14个项目
+  - 第13个项目：美团店铺数据处理工具
+  - 第14个项目：呈尚策划运营数据系统（集成飞书运营数据统计和店铺解约查询功能）
+- 📚 **文档更新**：更新README文档，完善项目列表
 
 ### v2.1.0 (2025-01-01)
 - ✨ **新增项目**：添加了第12个项目"运营部智能排班系统+销售部大扫除安排表系统"
