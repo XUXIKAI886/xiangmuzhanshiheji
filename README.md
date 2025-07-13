@@ -95,7 +95,7 @@
     - 特点：数据统计、解约查询、运营分析
 
 15. **销售数据报告生成系统**
-    - 链接：[https://xuxikai886.github.io/xiaoshoushujubaogao/](https://xuxikai886.github.io/xiaoshoushujubaogao/)
+    - 链接：[https://xiaoshoushujubaogao.vercel.app/](https://xiaoshoushujubaogao.vercel.app/)
     - 描述：呈尚策划销售部专用专业版，美团外卖店铺20秒一键生成专业精美报告
     - 特点：一键生成、专业报告、20秒完成
 
