@@ -60,7 +60,7 @@
    - 特点：智能助手、数据可视化、思维导图
 
 8. **呈尚策划财务记账系统**
-   - 链接：[https://kbergllquouv.sealosbja.site/](https://kbergllquouv.sealosbja.site/)
+   - 链接：[https://ecxwwrlrvklf.sealosbja.site/](https://ecxwwrlrvklf.sealosbja.site/)
    - 描述：简洁高效的财务记账系统，支持收支记录、凭证上传和财务统计等功能
    - 特点：收支记录、凭证管理、财务统计
 
