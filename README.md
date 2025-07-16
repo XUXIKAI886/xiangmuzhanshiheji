@@ -22,7 +22,7 @@
 
 ## 展示项目
 
-网站展示了以下十八个与美团外卖和闪购运营相关的项目：
+网站展示了以下十九个与美团外卖和闪购运营相关的项目：
 
 1. **商家回复解答手册**
    - 链接：[https://xuxikai886.github.io/shangjiahuizong/](https://xuxikai886.github.io/shangjiahuizong/)
@@ -60,7 +60,7 @@
    - 特点：智能助手、数据可视化、思维导图
 
 8. **呈尚策划财务记账系统**
-   - 链接：[https://vcexwxvxakpj.sealosbja.site/](https://vcexwxvxakpj.sealosbja.site/)
+   - 链接：[https://owvrmoaveziz.sealosbja.site/](https://owvrmoaveziz.sealosbja.site/)
    - 描述：简洁高效的财务记账系统，支持收支记录、凭证上传和财务统计等功能
    - 特点：收支记录、凭证管理、财务统计
 
@@ -114,7 +114,20 @@
     - 描述：呈尚策划人事面试顾问系统，上传候选人简历，生成专业详细的面试指南
     - 特点：简历分析、面试指南、专业评估、智能生成
 
+19. **呈尚策划数据统计系统**
+    - 链接：[https://xuxikai886.github.io/chengshangcehshujutongji/](https://xuxikai886.github.io/chengshangcehshujutongji/)
+    - 描述：呈尚策划综合数据统计系统，提供全面的业务数据分析和统计报告功能
+    - 特点：数据分析、统计报告、业务监控
+
 ## 最近更新
+
+### v2.7.0 (2025-01-16)
+- ✨ **新增项目**：添加了第19个项目"呈尚策划数据统计系统"
+  - 呈尚策划综合数据统计系统，提供全面的业务数据分析功能
+  - 支持统计报告生成和业务监控
+  - 采用sky-blue渐变色彩设计，与其他项目形成视觉区分
+  - 使用chart-column图标，突出数据统计特性
+- 📚 **文档更新**：更新README文档，完善项目列表至19个项目
 
 ### v2.6.0 (2025-01-13)
 - ✨ **新增项目**：添加了第18个项目"呈尚策划人事面试顾问系统"
