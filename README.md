@@ -75,7 +75,7 @@
     - 特点：工作量分析、趋势对比、绩效评估
 
 11. **销售部数据统计系统**
-    - 链接：[https://elcldkimdeyj.sealosbja.site/](https://elcldkimdeyj.sealosbja.site/)
+    - 链接：[https://cjxtkyvmypuj.sealosbja.site/](https://cjxtkyvmypuj.sealosbja.site/)
     - 描述：呈尚策划销售部每日数据汇总分析系统，实时追踪销售目标完成情况
     - 特点：销售数据、目标追踪、绩效分析
 
