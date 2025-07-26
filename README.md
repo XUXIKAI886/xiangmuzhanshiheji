@@ -124,7 +124,7 @@ xiangmuzhanshiheji/
 ### 销售专用工具 (2个)
 
 13. **呈尚策划销售部数据统计系统**
-    - 链接：[https://cjxtkyvmypuj.sealosbja.site/](https://cjxtkyvmypuj.sealosbja.site/)
+    - 链接：[https://www.chengshangcehua.top/](https://www.chengshangcehua.top/)
     - 描述：呈尚策划销售部每日数据汇总分析系统，实时追踪销售目标完成情况
     - 特点：销售数据、目标追踪、绩效分析
 
@@ -136,7 +136,7 @@ xiangmuzhanshiheji/
 ### 人事专用工具 (4个)
 
 15. **呈尚策划财务记账系统**
-    - 链接：[https://owvrmoaveziz.sealosbja.site/](https://owvrmoaveziz.sealosbja.site/)
+    - 链接：[www.yujinkeji.net](http://www.yujinkeji.net)
     - 描述：简洁高效的财务记账系统，支持收支记录、凭证上传和财务统计等功能
     - 特点：收支记录、凭证管理、财务统计
 
