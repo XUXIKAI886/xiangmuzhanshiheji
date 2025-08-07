@@ -2,7 +2,7 @@
 
 ## 项目概述
 
-呈尚策划项目展示网站是一个展示美团外卖和闪购运营相关工具、系统及知识库的响应式网页。该网站采用现代化的UI设计，通过精美的卡片布局和动画效果，直观地展示了各个项目的功能和特点。网站目前包含19个专业工具，涵盖运营、美工、销售、人事和客服等多个部门的需求。
+呈尚策划项目展示网站是一个展示美团外卖和闪购运营相关工具、系统及知识库的响应式网页。该网站采用现代化的UI设计，通过精美的卡片布局和动画效果，直观地展示了各个项目的功能和特点。网站目前包含21个专业工具，涵盖运营、美工、销售、人事和客服等多个部门的需求。
 
 ## 功能特点
 
@@ -55,9 +55,9 @@ xiangmuzhanshiheji/
 
 ## 展示项目
 
-网站展示了以下十九个与美团外卖和闪购运营相关的项目，按部门分类：
+网站展示了以下二十一个与美团外卖和闪购运营相关的项目，按部门分类：
 
-### 运营专用工具 (10个)
+### 运营专用工具 (11个)
 
 1. **商家回复解答手册**
    - 链接：[https://xuxikai886.github.io/shangjiahuizong/](https://xuxikai886.github.io/shangjiahuizong/)
@@ -109,60 +109,74 @@ xiangmuzhanshiheji/
     - 描述：呈尚策划运营部专用，外卖店铺四件套方案生成，基于AI智能分析，提供品牌定位分析、商圈调研分析和店铺活动方案生成服务
     - 特点：AI智能分析、品牌定位、商圈调研、活动方案
 
+11. **图片墙图片分割工具**
+    - 链接：[https://xuxikai886.github.io/tupianqiangtupianfenge/](https://xuxikai886.github.io/tupianqiangtupianfenge/)
+    - 描述：上传图片墙图片，自动分割为三个相等部分，支持多种格式下载
+    - 特点：图片分割、图片处理、格式转换
+
 ### 美工专用工具 (2个)
 
-11. **美团闪购产品信息图片采集软件**
+12. **美团闪购产品信息图片采集软件**
     - 链接：[https://xuxikai886.github.io/shangou-caiji/](https://xuxikai886.github.io/shangou-caiji/)
     - 描述：专为美团闪购商家开发的产品信息与图片自动采集工具
     - 特点：图片采集、产品信息、自动抓取
 
-12. **美团店铺数据处理工具**
+13. **美团店铺数据处理工具**
     - 链接：[https://xuxikai886.github.io/meituanshangpingtupianxiazai/](https://xuxikai886.github.io/meituanshangpingtupianxiazai/)
     - 描述：呈尚策划运营部美工专用工具，高效便捷下载任何店铺的图片和产品数据
     - 特点：数据提取、图片处理、Fluent设计
 
 ### 销售专用工具 (2个)
 
-13. **呈尚策划销售部数据统计系统**
+14. **呈尚策划销售部数据统计系统**
     - 链接：[https://www.chengshangcehua.top/](https://www.chengshangcehua.top/)
     - 描述：呈尚策划销售部每日数据汇总分析系统，实时追踪销售目标完成情况
     - 特点：销售数据、目标追踪、绩效分析
 
-14. **销售数据报告生成系统**
+15. **销售数据报告生成系统**
     - 链接：[https://xuxikai886.github.io/xiaoshoushujubaogao/](https://xuxikai886.github.io/xiaoshoushujubaogao/)
     - 描述：呈尚策划销售部专用专业版，美团外卖店铺20秒一键生成专业精美报告
     - 特点：一键生成、专业报告、20秒完成
 
 ### 人事专用工具 (4个)
 
-15. **呈尚策划财务记账系统**
+16. **呈尚策划财务记账系统**
     - 链接：[www.yujinkeji.net](http://www.yujinkeji.net)
     - 描述：简洁高效的财务记账系统，支持收支记录、凭证上传和财务统计等功能
     - 特点：收支记录、凭证管理、财务统计
 
-16. **运营部智能排班系统+销售部大扫除安排表系统**
+17. **运营部智能排班系统+销售部大扫除安排表系统**
     - 链接：[https://xuxikai886.github.io/cschpaibanxitong/index.html](https://xuxikai886.github.io/cschpaibanxitong/index.html)
     - 描述：运营部+销售部智能排班与大扫除安排表系统，一键生成随机排班，公平公正公开
     - 特点：智能排班、随机生成、公平公正
 
-17. **呈尚策划人事面试顾问系统**
+18. **呈尚策划人事面试顾问系统**
     - 链接：[https://xuxikai886.github.io/renshimianshixitong/](https://xuxikai886.github.io/renshimianshixitong/)
     - 描述：呈尚策划人事面试顾问系统，上传候选人简历，生成专业详细的面试指南
     - 特点：简历分析、面试指南、专业评估、智能生成
 
-18. **呈尚策划数据统计系统**
+19. **呈尚策划数据统计系统**
     - 链接：[https://xuxikai886.github.io/chengshangcehshujutongji/](https://xuxikai886.github.io/chengshangcehshujutongji/)
     - 描述：呈尚策划综合数据统计系统，提供全面的业务数据分析和统计报告功能
     - 特点：数据分析、统计报告、业务监控
 
 ### 客服专用工具 (1个)
 
-19. **美团店铺信息采集系统**
+20. **美团店铺信息采集系统**
     - 链接：[https://xuxikai886.github.io/meituandianpuxinxicaiji/](https://xuxikai886.github.io/meituandianpuxinxicaiji/)
     - 描述：呈尚策划客服部专用，自动解析美团外卖店铺名称、联系电话、地址、评分等关键信息，支持批量处理多条店铺数据，1分钟采集5-6条信息到excel表格中，平均1个小时可以采集300个资源
     - 特点：自动解析、批量处理、Excel导出、高效采集
 
 ## 最近更新
+
+### v2.8.0 (2025-01-16)
+- ✨ **新增项目**：添加了第21个项目"图片墙图片分割工具"
+  - 专为运营部门打造的图片处理工具
+  - 支持上传图片墙图片，自动分割为三个相等部分
+  - 支持多种格式下载，提升图片处理效率
+  - 采用orange-amber渐变色彩设计，使用cut图标突出分割功能
+- 📚 **文档更新**：更新README文档，完善项目列表至21个项目
+- 🔢 **数量更新**：运营专用工具从11个增加到12个
 
 ### v2.7.0 (2025-01-16)
 - ✨ **新增项目**：添加了第19个项目"呈尚策划数据统计系统"
